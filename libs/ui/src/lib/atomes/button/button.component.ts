@@ -10,4 +10,6 @@ import { CommonModule } from '@angular/common';
 })
 export class ButtonComponent {
   @Input() label = 'label';
+  @Input() active = false;
+  
 }

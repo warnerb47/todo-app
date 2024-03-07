@@ -8,9 +8,16 @@ const meta: Meta<ButtonComponent> = {
 export default meta;
 type Story = StoryObj<ButtonComponent>;
 
-export const Primary: Story = {
+export const Active: Story = {
   args: {
-    label: 'btn label'
+    label: 'active btn',
+    active: true
+  },
+};
+export const unActive: Story = {
+  args: {
+    label: 'unactive btn',
+    active: false
   },
 };
 
