@@ -55,6 +55,15 @@
         "targetName": "e2e",
         "componentTestingTargetName": "component-test"
       }
+    },
+    {
+      "plugin": "@nx/storybook/plugin",
+      "options": {
+        "buildStorybookTargetName": "build-storybook",
+        "serveStorybookTargetName": "storybook",
+        "testStorybookTargetName": "test-storybook",
+        "staticStorybookTargetName": "static-storybook"
+      }
     }
   ],
   "generators": {
@@ -63,6 +72,13 @@
       "linter": "eslint",
       "style": "scss",
       "unitTestRunner": "jest"
+    },
+    "@nx/angular:library": {
+      "linter": "eslint",
+      "unitTestRunner": "jest"
+    },
+    "@nx/angular:component": {
+      "style": "css"
     }
   },
   "nxCloudAccessToken": "NzcyZGI2MzQtNzJmZS00NDlkLWI0NmQtNDlmZjAzZTI3NGZkfHJlYWQtd3JpdGU=",
