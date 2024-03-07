@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Task } from 'libs/ui/src/core/models/task';
+import { StubTaskBuilder } from 'libs/ui/src/core/models/builders/task.builder';
 
 @Component({
   selector: 'todo-app-task',
@@ -8,4 +10,6 @@ import { CommonModule } from '@angular/common';
   templateUrl: './task.component.html',
   styleUrl: './task.component.scss',
 })
-export class TaskComponent {}
+export class TaskComponent {
+  @Input() task: Task = new StubTaskBuilder().build();
+}
