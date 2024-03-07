@@ -1,0 +1,14 @@
+@import '../../../../.storybook/_theme';
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: $dark-grayish-blue;
+    text-transform: capitalize;
+    
+    &:hover {
+        color: $very-dark-grayish-blue;
+    }
+}
