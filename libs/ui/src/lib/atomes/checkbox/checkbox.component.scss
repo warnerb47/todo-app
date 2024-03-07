@@ -1,11 +1,16 @@
 @import '../../../../.storybook/_theme';
 
 .checkbox {
+    cursor: pointer;
     border-radius: 100%;
     width: 25px;
     height: 25px;
     padding: 1px;
-    background: $primary-check-background;
+    background-color: $light-grayish-blue;
+
+    &:hover, &.checked {
+        background: $primary-check-background;
+    }
 
     &.checked {
         display: flex;

@@ -9,5 +9,10 @@ import { CommonModule } from '@angular/common';
   styleUrl: './checkbox.component.scss',
 })
 export class CheckboxComponent {
+  
   @Input() checked = false;
+
+  toggleCheck(): void {
+    this.checked = !this.checked;
+  }
 }
