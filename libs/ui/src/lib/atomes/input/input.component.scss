@@ -1,4 +1,10 @@
-input {
+@import '../../../../.storybook/_theme';
+
+input[type="text"] {
     outline: none;
     border: none;
+    width: 100%;
+    height: 30px;
+    font-size: 1.15rem;
+    color: $very-dark-grayish-blue;
 }
