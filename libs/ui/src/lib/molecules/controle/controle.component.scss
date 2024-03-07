@@ -1,0 +1,21 @@
+@import '../../../../.storybook/_theme';
+
+.controle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .label{
+        color: $dark-grayish-blue;
+    }
+
+    .btns{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left{
+            margin-right: 2rem;
+        }
+    }
+}
