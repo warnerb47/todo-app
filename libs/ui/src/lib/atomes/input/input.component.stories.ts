@@ -6,7 +6,7 @@ import { expect } from '@storybook/jest';
 
 const meta: Meta<InputComponent> = {
   component: InputComponent,
-  title: 'InputComponent',
+  title: 'Atomes/InputComponent',
 };
 export default meta;
 type Story = StoryObj<InputComponent>;

@@ -3,7 +3,7 @@ import { TaskComponent } from './task.component';
 
 const meta: Meta<TaskComponent> = {
   component: TaskComponent,
-  title: 'TaskComponent',
+  title: 'Molecules / TaskComponent',
 };
 export default meta;
 type Story = StoryObj<TaskComponent>;

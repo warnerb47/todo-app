@@ -3,7 +3,7 @@ import { CheckboxComponent } from './checkbox.component';
 
 const meta: Meta<CheckboxComponent> = {
   component: CheckboxComponent,
-  title: 'CheckboxComponent',
+  title: 'Atomes/CheckboxComponent',
 };
 export default meta;
 type Story = StoryObj<CheckboxComponent>;
