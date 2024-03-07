@@ -11,14 +11,18 @@ const meta: Meta<CheckboxComponent> = {
 export default meta;
 type Story = StoryObj<CheckboxComponent>;
 
-export const Primary: Story = {
-  args: {},
+export const Checked: Story = {
+  args: {
+    checked: true
+  },
 };
 
-export const Heading: Story = {
-  args: {},
-  play: async ({ canvasElement }) => {
-    const canvas = within(canvasElement);
-    expect(canvas.getByText(/checkbox works!/gi)).toBeTruthy();
+export const UnChecked: Story = {
+  args: {
+    checked: false
   },
+  // play: async ({ canvasElement }) => {
+  //   const canvas = within(canvasElement);
+  //   expect(canvas.getByText(/checkbox works!/gi)).toBeTruthy();
+  // },
 };
