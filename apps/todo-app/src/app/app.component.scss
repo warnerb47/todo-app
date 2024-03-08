@@ -8,12 +8,10 @@ main {
     justify-content: center;
     flex-direction: column;
 
-    header{
+    todo-app-header{
         height: 100%;
         width: 100%;
         flex: 0.4;
-        background-image: url('../assets/images/bg-desktop-light.jpg');
-        background-size: cover;
     }
     .content{
         height: 100%;
