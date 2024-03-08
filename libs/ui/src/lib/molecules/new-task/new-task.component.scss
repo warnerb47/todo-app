@@ -3,7 +3,10 @@
 .newTask {
     display: flex;
     align-items: center;
-    max-width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 350px;
+    background-color: white;
 
     &> * + * {
         margin-left: 5px;
