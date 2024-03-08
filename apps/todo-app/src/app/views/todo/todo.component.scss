@@ -6,13 +6,13 @@
     align-items: center;
     justify-content: space-between;
     width: 40%;
-    height: 75%;
+    height: 90%;
     position: absolute;
     top: 10%;
     left: 30%;
 
     &>*+*{
-        margin-top: 3vh;
+        margin-top: 7vh;
     }
 
     .header {
@@ -35,11 +35,32 @@
     }
 
     .content{
-        background-color: azure;
         display: flex;
         align-items: center;
         flex-direction: column;
         width: 100%;
         height: 100%;
+        &>*+*{
+            margin-top: 2vh;
+        }
+    
+        todo-app-new-task{
+            width: 100%;
+        }
+        todo-app-task-list{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .footer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5%;
+        font-size: 0.75rem;
+        line-height: 1rem;
+        color: $dark-grayish-blue;
     }
 }
