@@ -3,7 +3,7 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/assets/src",
   "prefix": "todo-app",
-  "tags": [],
+  "tags": ["type:assets", "scope:shared"],
   "projectType": "library",
   "targets": {}
 }
