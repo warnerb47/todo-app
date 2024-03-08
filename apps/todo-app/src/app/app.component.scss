@@ -1,0 +1,25 @@
+@import './shared/styles/_colors.scss';
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    header{
+        height: 100%;
+        width: 100%;
+        flex: 0.4;
+        background-image: url('../assets/images/bg-desktop-light.jpg');
+        background-size: cover;
+    }
+    .content{
+        height: 100%;
+        width: 100%;
+        flex: 0.6;
+        background-color: $very-gight-gray;
+    }
+
+}
