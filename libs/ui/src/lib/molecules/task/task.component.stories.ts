@@ -11,13 +11,13 @@ type Story = StoryObj<TaskComponent>;
 
 export const UnChecked: Story = {
   args: {
-    task: new StubTaskBuilder().withLabel('this is a pending task').build(),
+    task: new StubTaskBuilder().withLabel('This is a pending task').build(),
   },
 };
 
 export const Checked: Story = {
   args: {
-    task: new StubTaskBuilder().withLabel('this is a completed task').withChecked(true).build(),
+    task: new StubTaskBuilder().withLabel('This is a completed task').withChecked(true).build(),
   },
 };
 

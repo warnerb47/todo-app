@@ -31,6 +31,6 @@ export class TaskBuilder {
 
 export class StubTaskBuilder extends TaskBuilder {
     protected override index = 1; 
-    protected override label = 'label'; 
+    protected override label = 'Stub label...'; 
     protected override checked = false; 
 }

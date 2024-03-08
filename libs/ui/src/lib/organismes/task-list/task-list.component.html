@@ -1,0 +1,7 @@
+<div class="tasksList">
+    @for (task of tasks; track $index) {
+        <todo-app-task [task]="task"></todo-app-task>
+    }@empty {
+        <div class="empty">Empyt list</div>
+    }
+</div>
