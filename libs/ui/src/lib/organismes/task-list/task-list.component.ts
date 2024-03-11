@@ -12,4 +12,8 @@ import { TaskComponent } from '../../molecules';
 })
 export class TaskListComponent {
   @Input() tasks: Task[] = [];
+
+  deleteTask(task: Task): void {
+    console.log('delete', task);
+  }
 }
