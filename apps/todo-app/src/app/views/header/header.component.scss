@@ -4,3 +4,10 @@ header{
     background-image: url('libs/assets/src/assets/images/bg-desktop-light.jpg');
     background-size: cover;
 }
+
+
+@media (max-width: 640px) {
+    header{
+        background-image: url('libs/assets/src/assets/images/bg-mobile-light.jpg');
+    }
+}
