@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const sourceDir = './dist/job-listings/browser';
+const sourceDir = './dist/apps/todo-app/browser';
 const targetDir = './docs';
 
 const deleteFilesInDirectory = (directory) => {
