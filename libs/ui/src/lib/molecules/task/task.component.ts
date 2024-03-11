@@ -22,4 +22,8 @@ export class TaskComponent {
   deleteTask(): void {
     this.taskDeleted.emit(this.task);
   }
+
+  checkTask(): void {
+    this.task.checked = !this.task.checked;
+  }
 }

@@ -1,5 +1,5 @@
 <div class="task">
-    <todo-app-checkbox [checked]="task.checked"></todo-app-checkbox>
+    <todo-app-checkbox [checked]="task.checked" (taskChecked)="checkTask()"></todo-app-checkbox>
     <div class="label" contenteditable="true" [ngClass]="{'checked': task.checked}">{{task.label}}</div>
     <div class="image" (click)="deleteTask()">
         <img src="assets/icon/icon-cross.svg" alt="close">
