@@ -26,7 +26,8 @@
           }
         ],
         "styles": ["apps/todo-app/src/styles.scss"],
-        "scripts": []
+        "scripts": [],
+        "baseHref": "/todo-app/"
       },
       "configurations": {
         "production": {
