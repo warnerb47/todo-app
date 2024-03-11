@@ -25,8 +25,7 @@ const deleteFilesInDirectory = (directory) => {
     }
 };
 
-const createDirectory = (targetFile) => {
-
+const createDirectory = (sourceFile, targetFile) => {
     fs.mkdir(targetFile, err => {
         if (err) {
             console.error(`Error creating directory ${targetFile}:`, err);
@@ -62,7 +61,7 @@ const copyFiles = (source, target) => {
                     return;
                 }
                 if (stats.isDirectory()) {
-                    createDirectory(targetFile);
+                    createDirectory(sourceFile, targetFile);
                 } else {
                     copyFile(sourceFile, targetFile);
                 }
