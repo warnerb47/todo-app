@@ -4,7 +4,7 @@
         <img src="assets/icon/icon-moon.svg" alt="theme">
     </div>
     <div class="content">
-        <todo-app-new-task></todo-app-new-task>
+        <todo-app-new-task (newTask)="createTask($event)"></todo-app-new-task>
         <todo-app-task-list></todo-app-task-list>
     </div>
 
