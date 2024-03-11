@@ -1,7 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const sourceDir = './dist/apps/todo-app/browser';
+// const sourceDir = './dist/apps/todo-app/browser';
+const sourceDir = './libs/ui/storybook-static';
 const targetDir = './docs';
 
 const deleteFilesInDirectory = (directory) => {
