@@ -5,7 +5,7 @@
     </div>
     <div class="content">
         <todo-app-new-task (newTask)="createTask($event)"></todo-app-new-task>
-        <todo-app-task-list></todo-app-task-list>
+        <todo-app-task-list [tasks]="tasks"></todo-app-task-list>
     </div>
 
     <div class="footer">
