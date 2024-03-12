@@ -1,4 +1,21 @@
-$color: (
-    $primary-bright-blue: hsl(220, 98%, 61%),
-    $check-background: linear-gradient(to right, hsl(192, 100%, 67%), hsl(280, 87%, 65%)),
+
+$primary-bright-blue: hsl(220, 98%, 61%);
+$check-background: linear-gradient(to right, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+
+$light-theme: (
+    $header-bg-desktop: 'libs/assets/src/assets/images/bg-desktop-light.jpg',
+    $header-bg-mobile: 'libs/assets/src/assets/images/bg-mobile-light.jpg',
+    $theme-toggle-icon: 'libs/assets/src/assets/icon/icon-moon.svg',
+    $content-bg: hsl(0, 0%, 98%),
+    $todo-bg: white,
+    $text: hsl(235, 19%, 35%),
+);
+
+$dark-theme: (
+    $header-bg-desktop: 'libs/assets/src/assets/images/bg-desktop-dark.jpg',
+    $header-bg-mobile: 'libs/assets/src/assets/images/bg-mobile-dark.jpg',
+    $theme-toggle-icon: 'libs/assets/src/assets/icon/icon-sun.svg',
+    $content-bg: hsl(235, 21%, 11%),
+    $todo-bg: hsl(235, 24%, 19%),
+    $text: hsl(236, 9%, 61%),
 );
