@@ -18,6 +18,7 @@
       "@todo-app/assets": ["libs/assets/src/index.ts"],
       "@todo-app/shared": ["libs/shared/src/index.ts"],
       "@todo-app/ui": ["libs/ui/src/index.ts"],
+      "@todo-app/my-public-lib": ["libs/my-public-lib/src/index.ts"],
     }
   },
   "exclude": ["node_modules", "tmp"]
